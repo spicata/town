@@ -19,3 +19,4 @@ The Town was once an idea (about a collection of public notes), but by now, it h
 - [O](https://super-cookies.github.io/duk/) by Athu Sathe
 - [Cringe Notes](https://grimreaper2654.github.io/Notes/) by Tom Qiu
 - [Loren's 2023 Notion](https://ionized-satellite-e99.notion.site/Loren-s-2023-Notion-cd03827de0a743468d9fb5a70413fc95) by Loren
+- [The Merchant](https://harzavad.github.io/the-merchant/) by Yuki
