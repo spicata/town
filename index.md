@@ -22,3 +22,4 @@ The Town was once an idea (about a collection of public notes), but by now, it h
 - [The Merchant](https://harzavad.github.io/the-merchant/) by The Merchant
 - [The Wanderer](https://rewind789.github.io/wanderer-archive/) by The Wanderer
 - [Beatrice's Notes](https://beatricesychong.wixsite.com/notes) by... Beatrice
+- [claudia's life planner(?)](https://fallacious-radar-e93.notion.site/claudia-s-life-planner-c23280690bef46b79adee2d0773c5591) by Claudia
