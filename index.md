@@ -23,3 +23,4 @@ The Town was once an idea (about a collection of public notes), but by now, it h
 - [The Wanderer](https://rewind789.github.io/wanderer-archive/) by The Wanderer
 - [Beatrice's Notes](https://beatricesychong.wixsite.com/notes) by... Beatrice
 - [claudia's life planner(?)](https://cshc.notion.site/cshc/claudia-s-life-planner-c23280690bef46b79adee2d0773c5591) by Claudia
+- [Baju's Learning](https://rjdjcool3.github.io/baju-s/) by Ajay
