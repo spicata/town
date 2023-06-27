@@ -9,10 +9,10 @@ The unofficial official directory of the Town (ordered in chronological order)
 - [Ed's Obsidian Notes (v.4)](https://ed.toomwn.xyz/)
 - [the notes](https://notmario.github.io/thenotes/) by Ossac
 - [Mace's Notes](https://macesnotes.netlify.app/) ([github](https://github.com/MaceChettiyadan/Y11Notes))
-- [Reaper's Year 11 Notes](https://grim4reaper.github.io/Year11Notes/) ([github](https://github.com/Grim4Reaper/Year11Notes))
+- [Reaper's Year 11 Notes](https://reaper.toomwn.xyz/) ([github](https://github.com/Grim4Reaper/Year11Notes))
 - [Into the Shadow Garten](https://shadowgarten.toomwn.xyz/) ([github](https://github.com/anonymoof1528/into-the-shadow-garten)) by Anonymous
 - [JACARANDA](https://nottacoz.github.io/jacaranda/) ([github](https://github.com/NotTacoz/jacaranda)) by Thomas Han
-- [Littleroot](https://nottaro.github.io/littleroot/) ([github](https://github.com/nottaro/littleroot)) by Jonathan Lee
+- [Littleroot](https://littleroot.toomwn.xyz/) ([github](https://github.com/nottaro/littleroot)) by Jonathan Lee
 - [Shan-Mei's Notes](https://shanmeis-notes.toomwn.xyz/) ([github](https://github.com/Shan-Mei/shanmeis-notes))
 - [The Chicken Pen](https://pi-thagoras.github.io/the-chicken-pen/) ([github](https://github.com/Pi-thagoras/the-chicken-pen)) by π-thagoras
 - [Siberian Cookie Gulag](https://rubver16.github.io/joles-notes/) ([github](https://github.com/Rubver16/joles-notes)) by Jole
