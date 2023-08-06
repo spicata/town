@@ -3,14 +3,13 @@ layout: default
 title: "The Town"
 ---
 
-The unofficial official directory of the Town (ordered in chronological order)
+The official directory of the Town (ordered in chronological order)
 
 - [spicata99](https://spicata.99000000.xyz/) ([github](https://github.com/spicata/spicata.github.io)) by spicata
-- [Ed's Obsidian Notes (v.4)](https://ed.toomwn.xyz/)
 - [the notes](https://notmario.github.io/thenotes/) by Ossac
 - [Mace's Notes](https://macesnotes.netlify.app/) ([github](https://github.com/MaceChettiyadan/Y11Notes))
 - [Reaper's Year 11 Notes](https://reaper.toomwn.xyz/) ([github](https://github.com/Grim4Reaper/Year11Notes))
-- [Into the Shadow Garten](https://shadowgarten.toomwn.xyz/) ([github](https://github.com/anonymoof1528/into-the-shadow-garten)) by Anonymous
+- [Into the Shadow Garten](https://anonymoof1528.github.io/the-shadow-garten/) ([github](https://github.com/anonymoof1528/the-shadow-garten)) by Anonymous
 - [JACARANDA](https://nottacoz.github.io/jacaranda/) ([github](https://github.com/NotTacoz/jacaranda)) by Thomas Han
 - [Littleroot](https://littleroot.toomwn.xyz/) ([github](https://github.com/nottaro/littleroot)) by Jonathan Lee
 - [Shan-Mei's Notes](https://shanmeis-notes.toomwn.xyz/) ([github](https://github.com/Shan-Mei/shanmeis-notes))
@@ -25,3 +24,5 @@ The unofficial official directory of the Town (ordered in chronological order)
 - [claudia's life planner(?)](https://cshc.notion.site/cshc/claudia-s-life-planner-c23280690bef46b79adee2d0773c5591)
 - [Baju's Learning](https://baju-s.toomwn.xyz/) ([github](https://github.com/RJDJcool3/baju-s)) by Ajay
 - [Kat's Year 11 Notes](https://coreonett.notion.site/coreonett/Year-11-Notes-6978dbec99e943649a3a0773b2ee0587)
+- [Geobear's Owner's Notes](https://geobears-owner.github.io/smarting-up/bank/home/)
+
