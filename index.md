@@ -5,18 +5,18 @@ title: "The Town"
 
 The official directory of the Town (ordered in chronological order)
 
-- [spicata99](https://spicata.99000000.xyz/) ([github](https://github.com/spicata/spicata.github.io)) by spicata
-- [the notes](https://notmario.github.io/thenotes/) by Ossac
+- [spicata99-](https://spicata.99000000.xyz/) ([github](https://github.com/spicata/spicata.github.io))
+- [the notes](https://notmario.github.io/thenotes/) by notmario
 - [Mace's Notes](https://macesnotes.netlify.app/) ([github](https://github.com/MaceChettiyadan/Y11Notes))
 - [Reaper's Year 11 Notes](https://reaper.toomwn.xyz/) ([github](https://github.com/Grim4Reaper/Year11Notes))
-- [Into the Shadow Garten](https://anonymoof1528.github.io/the-shadow-garten/) ([github](https://github.com/anonymoof1528/the-shadow-garten)) by Anonymous
-- [JACARANDA](https://nottacoz.github.io/jacaranda/) ([github](https://github.com/NotTacoz/jacaranda)) by Thomas Han
-- [Littleroot](https://littleroot.toomwn.xyz/) ([github](https://github.com/nottaro/littleroot)) by Jonathan Lee
+- [Into the Shadow Garten](https://anonymoof1528.github.io/the-shadow-garten/) ([github](https://github.com/anonymoof1528/the-shadow-garten)) by anonymous
+- [JACARANDA](https://nottacoz.github.io/jacaranda/) ([github](https://github.com/NotTacoz/jacaranda)) by tacoz
+- [Littleroot](https://nottaro.github.io/littleroot/) ([github](https://github.com/nottaro/littleroot)) by jonathan
 - [Shan-Mei's Notes](https://shanmeis-notes.toomwn.xyz/) ([github](https://github.com/Shan-Mei/shanmeis-notes))
 - [The Chicken Pen](https://pi-thagoras.github.io/the-chicken-pen/) ([github](https://github.com/Pi-thagoras/the-chicken-pen)) by π-thagoras
-- [Siberian Cookie Gulag](https://rubver16.github.io/joles-notes/) ([github](https://github.com/Rubver16/joles-notes)) by Jole
-- [Diagonally](https://super-cookies.github.io/duk/) ([github](https://github.com/Super-Cookies/duk)) by Athu Sathe
-- [Cringe Notes](https://grimreaper2654.github.io/Notes/) ([github](https://github.com/GrimReaper2654/Notes)) by Tom Qiu
+- [Siberian Cookie Gulag](https://rubver16.github.io/joles-notes/) ([github](https://github.com/Rubver16/joles-notes)) by jole
+- [Diagonally](https://super-cookies.github.io/duk/) ([github](https://github.com/Super-Cookies/duk)) by athu
+- [Cringe Notes](https://grimreaper2654.github.io/Notes/) ([github](https://github.com/GrimReaper2654/Notes)) by tom
 - [Loren's Garden](https://ionized-satellite-e99.notion.site/Loren-s-2023-Notion-cd03827de0a743468d9fb5a70413fc95)
 - [The Merchant](https://harzavad.github.io/the-merchant/) ([github](https://github.com/harzavad/the-merchant))
 - [The Wanderer](https://rewind789.github.io/wanderer-obsidian-archive/) ([github](https://github.com/Rewind789/wanderer-obsidian-archive))
@@ -24,5 +24,5 @@ The official directory of the Town (ordered in chronological order)
 - [claudia's life planner(?)](https://cshc.notion.site/cshc/claudia-s-life-planner-c23280690bef46b79adee2d0773c5591)
 - [Baju's Learning](https://baju-s.toomwn.xyz/) ([github](https://github.com/RJDJcool3/baju-s)) by Ajay
 - [Kat's Year 11 Notes](https://coreonett.notion.site/coreonett/Year-11-Notes-6978dbec99e943649a3a0773b2ee0587)
-- [Geobear's Owner's Notes](https://geobears-owner.github.io/smarting-up/bank/home/)
+- [Geobear's Owner's Notes](https://geobears-owner.github.io/smarting-up/bank/home/) by ethan
 
