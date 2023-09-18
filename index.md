@@ -6,7 +6,7 @@ title: "The Town"
 The official directory of the Town (ordered in chronological order)
 
 - [spicata99-](https://spicata.99000000.xyz/) ([github](https://github.com/spicata/spicata.github.io))
-- [the notes](https://notmario.github.io/thenotes/) by notmario
+- [new notes](https://notmario.github.io/newnotes/) by notmario
 - [Mace's Notes](https://macesnotes.netlify.app/) ([github](https://github.com/MaceChettiyadan/Y11Notes))
 - [Reaper's Year 11 Notes](https://reaper.toomwn.xyz/) ([github](https://github.com/Grim4Reaper/Year11Notes))
 - [Into the Shadow Garten](https://anonymoof1528.github.io/the-shadow-garten/) ([github](https://github.com/anonymoof1528/the-shadow-garten)) by anonymous
@@ -15,7 +15,6 @@ The official directory of the Town (ordered in chronological order)
 - [Shan-Mei's Notes](https://shanmeis-notes.toomwn.xyz/) ([github](https://github.com/Shan-Mei/shanmeis-notes))
 - [The Chicken Pen](https://pi-thagoras.github.io/the-chicken-pen/) ([github](https://github.com/Pi-thagoras/the-chicken-pen)) by π-thagoras
 - [Siberian Cookie Gulag](https://rubver16.github.io/joles-notes/) ([github](https://github.com/Rubver16/joles-notes)) by jole
-- [Diagonally](https://super-cookies.github.io/duk/) ([github](https://github.com/Super-Cookies/duk)) by athu
 - [Cringe Notes](https://grimreaper2654.github.io/Notes/) ([github](https://github.com/GrimReaper2654/Notes)) by tom
 - [Loren's Garden](https://ionized-satellite-e99.notion.site/Loren-s-2023-Notion-cd03827de0a743468d9fb5a70413fc95)
 - [The Merchant](https://harzavad.github.io/the-merchant/) ([github](https://github.com/harzavad/the-merchant))
@@ -24,5 +23,3 @@ The official directory of the Town (ordered in chronological order)
 - [claudia's life planner(?)](https://cshc.notion.site/cshc/claudia-s-life-planner-c23280690bef46b79adee2d0773c5591)
 - [Baju's Learning](https://baju-s.toomwn.xyz/) ([github](https://github.com/RJDJcool3/baju-s)) by Ajay
 - [Kat's Year 11 Notes](https://coreonett.notion.site/coreonett/Year-11-Notes-6978dbec99e943649a3a0773b2ee0587)
-- [Geobear's Owner's Notes](https://geobears-owner.github.io/smarting-up/bank/home/) by ethan
-
