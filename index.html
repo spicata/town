@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Fira+Code&family=Inter&family=Libre+Baskerville&family=Open+Sans&family=Playpen+Sans&family=Roboto+Slab&family=Schibsted+Grotesk&family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/town.png">
+    <title>Town</title>
+    <style>
+        @font-face {
+            font-family: Brightwall;
+            src: url(https://shanmeis-notes.toomwn.xyz/assets/Brightwall.ttf);
+        }
+
+        @font-face {
+            font-family: Brandon;
+            src: url(https://shanmeis-notes.toomwn.xyz/assets/Brandon.ttf);
+        }
+
+        * {
+            transition: 0.5s;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        .grid-item {
+            /*border-radius: 20px;*/
+            aspect-ratio: 1/1.4;
+            overflow-wrap: anywhere;
+            padding: 0px;
+            font-size: 20px;
+            filter: brightness(60%) saturate(70%);
+            transition: 0.2s;
+            display: block; 
+            text-decoration: none;
+        }
+        .grid-item:hover{
+            filter: none;
+        }
+        .inside-bit { padding: 20px; }
+        #spicata { background-color: #fdf6e3; color: #657b83; font-family: 'Playpen Sans', sans-serif; }
+        #notmario { background-color: #28012f; color: #ffffff; font-family: 'Comic Neue', cursive; }
+        #mace { background-color: #212529; color: #dee2e6; font-family: 'Inter', sans-serif; }
+        #reaper { background-color: #000000; color: #fbfffe; font-family: 'Roboto Slab', serif; }
+        #shadows { background-color: #00283c; color: #fff; font-family: 'Open Sans', sans-serif; }
+        #jacaranda { background-color: #282a36; color: #d4d4d4; }
+        #littleroot { background-color: #102c57; color: #f8f0e5; }
+        #shanmei { background-color: #fff; color: #000; font-family: 'Brandon', sans-serif; }
+        #chicken { background-color: #fff; color: #000; }
+        #cookie { background-color: #9b5b3f; color: #4e4e4e; margin: 0px; padding: 0px; }
+        #cringe { background-color: #1e1e21; color: #d4d4d4; }
+        #loren { background-color: #fff; color: #000; }
+        #beatrice { background-color: #fff; color: #000; }
+        #claudia { background-color: #fff; color: #000; }
+        #baju { background-color: #141021; color: #d4d4d4; font-family: 'Source Sans 3', sans-serif; }
+        #kat { background-color: #fff; color: #000; }
+        #worldlink { background-color: #fff; color: #000; }
+        #teddy { background-color: #1f222a; color: #fff; font-family: /*'Fira Code',*/ monospace; }
+        .empty { background-color: #686868; }
+
+        .grid-container {
+            display: grid;
+            width: 100%;
+            margin: auto;
+            /*gap: 10px;*/
+            grid-template-columns: repeat(5,1fr);
+        }
+
+        .shadow-title { animation: rainbow 5s linear infinite; }
+        @keyframes rainbow {
+            0% { text-shadow: none; }
+            30% { text-shadow: none; }
+            40% {text-shadow: 10px 10px 10px violet;}
+            50% {text-shadow: 10px 10px 10px indigo;}
+            60% {text-shadow: 10px 10px 10px blue;}
+            70% {text-shadow: 10px 10px 10px green;}
+            80% {text-shadow: 10px 10px 10px orange;}
+            90% {text-shadow: 10px 10px 10px yellow;}
+            100% {text-shadow: 10px 10px 10px red;}
+        }
+
+        @media screen and (min-width: 2000px) {
+            .grid-item { aspect-ratio: unset; }
+            .grid-container { grid-template-columns: repeat(6,1fr); grid-template-rows: repeat(3); height: 100%; }
+        }
+
+        @media screen and (max-width: 1500px) {
+            .grid-item { aspect-ratio: 1/1.2; }
+            .grid-container { grid-template-columns: repeat(4,1fr); }
+        }
+
+
+        @media screen and (max-width: 1350px) {
+            .grid-item { aspect-ratio: 1/0.75; }
+            .grid-container { grid-template-columns: repeat(2,1fr); }
+        }
+
+        @media screen and (max-width: 1000px) {
+            .grid-item { aspect-ratio: 1/0.5; }
+            .grid-container { grid-template-columns: repeat(1,1fr); }
+        }
+    </style>
+  </head>
+  <body style="margin: 0px; height: 100%; background-color: #000;">
+    <div class="grid-container">
+        <a class="grid-item" id="spicata" href="https://spicata.99000000.xyz">
+            <div style="background-color: #657b83; width: 100%;"><p style="color: #fdf6e3; padding: 10px 20px; margin: 0px;">~ /</p></div>
+            <div class="inside-bit">
+                <h1>spicata99</h1>
+                <p>I MADE THIS F███ING TOWN PAGE AND OH MY GOODNESS GRACIOUS I WANT TO KILL MYSELF.</p>
+                <p>On another note, you should click on me because I make the best website, articles, and notes in the Town 😉</p>
+                <p>No-one has written a description yet.</p>
+            </div>
+        </a>
+        <a class="grid-item" id="notmario" href="https://notmario.github.io/newnotes/">
+            <div class="inside-bit">
+                <h1>notmario's notes</h1>
+                <hr style="border: 1px dashed #e59df1;">
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="mace" href="https://macesnotes.netlify.app/">
+            <div class="inside-bit">
+                <h1 style="font-weight: 700;">mace's notes</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="reaper" href="https://reaper.toomwn.xyz/">
+            <div class="inside-bit">
+                <h1 style="font-family: 'Libre Baskerville', serif;">reaper</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="shadows" href="https://shadowgarten.toomwn.xyz/">
+            <div class="inside-bit">
+                <h1 class="shadow-title">the shadow garten</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="jacaranda" href="https://nottacoz.github.io/jacaranda/">
+            <div class="inside-bit">
+                <h1 style="font-family: Arial, Helvetica, sans-serif; color: #BD93F9; font-weight: 600;">🌸 JACARANDA</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="littleroot" href="https://nottaro.github.io/littleroot/">
+            <div class="inside-bit">
+                <h1 style="color: #96b6c5">🌱 littleroot</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="shanmei" href="https://shanmeis-notes.toomwn.xyz/">
+            <div class="inside-bit">
+                <h1 style="font-family: Brightwall, cursive; color: #28007D; text-align: center;">Shan-Mei's Notes</h1>
+                <p>A website contains a bunch of notes (rip bozo no way im installing those fonts)</p>
+            </div>
+        </a>
+        <a class="grid-item" id="chicken" href="https://pi-thagoras.github.io/the-chicken-pen/">
+            <div style="background: linear-gradient(60deg, #ac1343 0%, #e0b049 100%); width: 100%; display: flex; justify-content: center; align-items: center; height: 30%;">
+                <h1 style="padding: 0px; font-family: Calibri, 'Trebuchet MS', sans-serif; color: #fff;">The Chicken Pen</h1>
+            </div>
+            <div class="inside-bit" style="padding: 5%;">
+                <p>how tf do i style this one?</p>
+            </div>
+        </a>
+        <a class="grid-item" id="cookie" href="https://rubver16.github.io/joles-notes/">
+            <div class="inside-bit">
+                <h1 style="color: #284b63">cookie</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="cringe" href="https://cringe.toomwn.xyz/">
+            <div class="inside-bit">
+                <h1>cringe</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="loren" href="https://ionized-satellite-e99.notion.site/Loren-s-2023-Notion-cd03827de0a743468d9fb5a70413fc95">
+            <div class="inside-bit">
+                <h1>loren</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="beatrice" href="https://beatricesychong.wixsite.com/notes">
+            <div class="inside-bit">
+                <h1>beatrice</h1>
+                <p>or even this one?</p>
+            </div>
+        </a>
+        <a class="grid-item" id="claudia" href="https://cshc.notion.site/cshc/claudia-s-life-planner-c23280690bef46b79adee2d0773c5591">
+            <div class="inside-bit">
+                <h1>claudia</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="baju" href="https://baju-s.toomwn.xyz/">
+            <div class="inside-bit">
+                <img src="https://rjdjcool3.github.io/baju-s/Year%2011/Other/Important%20Documents/BAJUS.png" alt="" style="max-width: 70%; padding: 20px 0px 0px;">
+                <blockquote style="border-left: 6px solid #00b0ff; border-radius: 5px; background-color: #292633; padding: 0px; margin: 5px;">
+                    <p style="background-color: #00587f; padding: 2px 10px 2px 15px; border-radius: 0px 5px 0px 0px; margin-bottom: 0px; font-weight: bold;">Hi there.</p>
+                    <p style="padding: 10px; margin-top: 5px; padding-top: 0px;">How are you?</p>
+                </blockquote>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="kat" href="https://coreonett.notion.site/coreonett/Year-11-Notes-6978dbec99e943649a3a0773b2ee0587">
+            <div class="inside-bit">
+                <h1>kat</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="worldlink" href="https://methul-ya-boi.github.io/">
+            <div class="inside-bit">
+                <h1>worldlink</h1>
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+        <a class="grid-item" id="teddy" href="https://thesavageteddy.github.io/">
+            <div class="inside-bit">
+                <div style="background: repeating-linear-gradient(90deg, #78E2A0, #78E2A0 2px, transparent 0, transparent 10px);"><p style="background-color: #78E2A0; width: fit-content; padding: 5px; color: #1f222a;">teddy / theSavageTeddy</p></div>
+                <h1 style="color: #78E2A0; font-weight: 600;">Teddy 2023</h1>
+                <hr style="border: dashed 1px #78E2A0; margin: 0px;">
+                <hr style="border: dashed 1px #78E2A0; margin: 4px 0px 0px;">
+                <p>A website contains a bunch of notes</p>
+            </div>
+        </a>
+    </div>
+  </body>
+</html>
