@@ -20,29 +20,26 @@
             src: url(https://shanmeis-notes.toomwn.xyz/assets/Brandon.ttf);
         }
 
-        * {
-            transition: 0.5s;
-        }
-
         h1 {
-            font-size: 28px;
+            font-size: 1.4vw;
         }
 
         .grid-item {
-            /*border-radius: 20px;*/
+            /*border-radius: 1vw;*/
             aspect-ratio: 1/1.4;
             overflow-wrap: anywhere;
             padding: 0px;
-            font-size: 20px;
+            font-size: 1vw;
             filter: brightness(60%) saturate(70%);
             transition: 0.2s;
             display: block; 
             text-decoration: none;
+            overflow: hidden
         }
         .grid-item:hover{
             filter: none;
         }
-        .inside-bit { padding: 20px; }
+        .inside-bit { padding: 1vw; }
         #spicata { background-color: #fdf6e3; color: #657b83; font-family: 'Playpen Sans', sans-serif; }
         #notmario { background-color: #28012f; color: #ffffff; font-family: 'Comic Neue', cursive; }
         #mace { background-color: #212529; color: #dee2e6; font-family: 'Inter', sans-serif; }
@@ -67,7 +64,7 @@
             display: grid;
             width: 100%;
             margin: auto;
-            /*gap: 10px;*/
+            /*gap: 0.5vw;*/
             grid-template-columns: repeat(5,1fr);
         }
 
@@ -75,33 +72,32 @@
         @keyframes rainbow {
             0% { text-shadow: none; }
             30% { text-shadow: none; }
-            40% {text-shadow: 10px 10px 10px violet;}
-            50% {text-shadow: 10px 10px 10px indigo;}
-            60% {text-shadow: 10px 10px 10px blue;}
-            70% {text-shadow: 10px 10px 10px green;}
-            80% {text-shadow: 10px 10px 10px orange;}
-            90% {text-shadow: 10px 10px 10px yellow;}
-            100% {text-shadow: 10px 10px 10px red;}
+            40% {text-shadow: 0.5vw 0.5vw 0.5vw violet;}
+            50% {text-shadow: 0.5vw 0.5vw 0.5vw indigo;}
+            60% {text-shadow: 0.5vw 0.5vw 0.5vw blue;}
+            70% {text-shadow: 0.5vw 0.5vw 0.5vw green;}
+            80% {text-shadow: 0.5vw 0.5vw 0.5vw orange;}
+            90% {text-shadow: 0.5vw 0.5vw 0.5vw yellow;}
+            100% {text-shadow: 0.5vw 0.5vw 0.5vw red;}
         }
 
-        @media screen and (min-width: 2000px) {
-            .grid-item { aspect-ratio: unset; }
-            .grid-container { grid-template-columns: repeat(6,1fr); grid-template-rows: repeat(3); height: 100%; }
-        }
-
-        @media screen and (max-width: 1500px) {
-            .grid-item { aspect-ratio: 1/1.2; }
+        @media screen and (max-width: 1350px) {
+            .grid-item { aspect-ratio: 1/0.9; }
             .grid-container { grid-template-columns: repeat(4,1fr); }
         }
 
-
-        @media screen and (max-width: 1350px) {
-            .grid-item { aspect-ratio: 1/0.75; }
-            .grid-container { grid-template-columns: repeat(2,1fr); }
+        @media screen and (max-width: 1200px) {
+            .grid-item { aspect-ratio: 1/0.6; }
+            .grid-container { grid-template-columns: repeat(3,1fr); }
         }
 
         @media screen and (max-width: 1000px) {
-            .grid-item { aspect-ratio: 1/0.5; }
+            .grid-item { aspect-ratio: 1/0.4; }
+            .grid-container { grid-template-columns: repeat(2,1fr); }
+        }
+
+        @media screen and (max-width: 700px) {
+            .grid-item { aspect-ratio: 1/0.2; }
             .grid-container { grid-template-columns: repeat(1,1fr); }
         }
     </style>
@@ -109,7 +105,7 @@
   <body style="margin: 0px; height: 100%; background-color: #000;">
     <div class="grid-container">
         <a class="grid-item" id="spicata" href="https://spicata.99000000.xyz">
-            <div style="background-color: #657b83; width: 100%;"><p style="color: #fdf6e3; padding: 10px 20px; margin: 0px;">~ /</p></div>
+            <div style="background-color: #657b83; width: 100%;"><p style="color: #fdf6e3; padding: 0.5vw 1vw; margin: 0px;">~ /</p></div>
             <div class="inside-bit">
                 <h1>spicata99</h1>
                 <p>I MADE THIS F███ING TOWN PAGE AND OH MY GOODNESS GRACIOUS I WANT TO KILL MYSELF.</p>
@@ -200,10 +196,10 @@
         </a>
         <a class="grid-item" id="baju" href="https://baju-s.toomwn.xyz/">
             <div class="inside-bit">
-                <img src="https://rjdjcool3.github.io/baju-s/Year%2011/Other/Important%20Documents/BAJUS.png" alt="" style="max-width: 70%; padding: 20px 0px 0px;">
+                <img src="https://rjdjcool3.github.io/baju-s/Year%2011/Other/Important%20Documents/BAJUS.png" alt="" style="max-width: 70%; padding: 1vw 0px 0px;">
                 <blockquote style="border-left: 6px solid #00b0ff; border-radius: 5px; background-color: #292633; padding: 0px; margin: 5px;">
-                    <p style="background-color: #00587f; padding: 2px 10px 2px 15px; border-radius: 0px 5px 0px 0px; margin-bottom: 0px; font-weight: bold;">Hi there.</p>
-                    <p style="padding: 10px; margin-top: 5px; padding-top: 0px;">How are you?</p>
+                    <p style="background-color: #00587f; padding: 2px 0.5vw 2px 15px; border-radius: 0px 5px 0px 0px; margin-bottom: 0px; font-weight: bold;">Hi there.</p>
+                    <p style="padding: 0.5vw; margin-top: 5px; padding-top: 0px;">How are you?</p>
                 </blockquote>
                 <p>A website contains a bunch of notes</p>
             </div>
@@ -222,7 +218,7 @@
         </a>
         <a class="grid-item" id="teddy" href="https://thesavageteddy.github.io/">
             <div class="inside-bit">
-                <div style="background: repeating-linear-gradient(90deg, #78E2A0, #78E2A0 2px, transparent 0, transparent 10px);"><p style="background-color: #78E2A0; width: fit-content; padding: 5px; color: #1f222a;">teddy / theSavageTeddy</p></div>
+                <div style="background: repeating-linear-gradient(90deg, #78E2A0, #78E2A0 2px, transparent 0, transparent 0.5vw);"><p style="background-color: #78E2A0; width: fit-content; padding: 5px; color: #1f222a;">teddy / theSavageTeddy</p></div>
                 <h1 style="color: #78E2A0; font-weight: 600;">Teddy 2023</h1>
                 <hr style="border: dashed 1px #78E2A0; margin: 0px;">
                 <hr style="border: dashed 1px #78E2A0; margin: 4px 0px 0px;">
