@@ -39,6 +39,18 @@
         #mace { background-color: #212529; color: #dee2e6; font-family: 'Inter', sans-serif; }
         #reaper { background-color: #000000; color: #fbfffe; font-family: 'Roboto Slab', serif; }
         #shadows { background-color: #00283c; color: #fff; font-family: 'Open Sans', sans-serif; }
+        .shadow-title { animation: rainbow 5s linear infinite; }
+        @keyframes rainbow {
+            0% { text-shadow: none; }
+            30% { text-shadow: none; }
+            40% {text-shadow: 0.5vw 0.5vw 0.5vw violet;}
+            50% {text-shadow: 0.5vw 0.5vw 0.5vw indigo;}
+            60% {text-shadow: 0.5vw 0.5vw 0.5vw blue;}
+            70% {text-shadow: 0.5vw 0.5vw 0.5vw green;}
+            80% {text-shadow: 0.5vw 0.5vw 0.5vw orange;}
+            90% {text-shadow: 0.5vw 0.5vw 0.5vw yellow;}
+            100% {text-shadow: 0.5vw 0.5vw 0.5vw red;}
+        }
         #jacaranda { background-color: #282a36; color: #d4d4d4; }
         #littleroot { background-color: #102c57; color: #f8f0e5; }
         #shanmei { background-color: #fff; color: #000; font-family: 'Brandon', sans-serif; }
@@ -52,19 +64,6 @@
         #kat { background-color: #fff; color: #000; }
         #worldlink { background-color: #fff; color: #000; }
         #teddy { background-color: #1f222a; color: #fff; font-family: 'Fira Code', monospace; }
-
-        .shadow-title { animation: rainbow 5s linear infinite; }
-        @keyframes rainbow {
-            0% { text-shadow: none; }
-            30% { text-shadow: none; }
-            40% {text-shadow: 0.5vw 0.5vw 0.5vw violet;}
-            50% {text-shadow: 0.5vw 0.5vw 0.5vw indigo;}
-            60% {text-shadow: 0.5vw 0.5vw 0.5vw blue;}
-            70% {text-shadow: 0.5vw 0.5vw 0.5vw green;}
-            80% {text-shadow: 0.5vw 0.5vw 0.5vw orange;}
-            90% {text-shadow: 0.5vw 0.5vw 0.5vw yellow;}
-            100% {text-shadow: 0.5vw 0.5vw 0.5vw red;}
-        }
 
         /*@media screen and (max-width: 1350px) {
             .grid-item { aspect-ratio: 1/0.9; }
