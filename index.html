@@ -65,30 +65,11 @@
         #kat { background-color: #fff; color: #000; }
         #worldlink { background-color: #fff; color: #000; }
         #teddy { background-color: #1f222a; color: #fff; font-family: 'Fira Code', monospace; }
-
-        @media screen and (max-width: 1600px) {
-            .grid-item { aspect-ratio: unset; }
-            .grid-container { grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(9, 400px); }
-        }
-
-        @media screen and (max-width: 1300px) {
-            .grid-item { aspect-ratio: unset; }
-            .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 400px); }
-        }
-
-        @media screen and (max-width: 1000px) {
-            .grid-item { aspect-ratio: unset; }
-            .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 480px); }
-        }
-        @media screen and (max-width: 500px) {
-            .grid-item { aspect-ratio: unset; }
-            .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 550px); }
-        }
-
-        @media screen and (min-width: 2000px) {
-            .grid-item { aspect-ratio: unset; }
-            .grid-container { grid-template-columns: repeat(6,1fr); grid-template-rows: repeat(3, 550px); }
-        }
+        @media screen and (max-width: 1600px) { .grid-container { grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(9, 400px); } }
+        @media screen and (max-width: 1300px) { .grid-item { filter: none; } .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 400px); } }
+        @media screen and (max-width: 1000px) { .grid-item { filter: none; } .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 480px); } }
+        @media screen and (max-width: 500px) { .grid-item { filter: none; } .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 550px); } }
+        @media screen and (min-width: 2000px) { .grid-container { grid-template-columns: repeat(6,1fr); grid-template-rows: repeat(3, 550px); } }
     </style>
   </head>
   <body style="margin: 0px; height: 100%; background-color: #000;">
