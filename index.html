@@ -15,7 +15,7 @@
         @font-face { font-family: Brandon; src: url(https://shanmeis-notes.toomwn.xyz/assets/Brandon.ttf); }
         h1 { font-size: 28px; }
         .grid-item {
-            aspect-ratio: 1/1.6;
+            /*aspect-ratio: 1/1.6;*/
             overflow-wrap: anywhere;
             padding: 0px;
             font-size: 20px;
@@ -32,6 +32,7 @@
             margin: auto;
             /*gap: 10px;*/
             grid-template-columns: repeat(5,1fr);
+            grid-template-rows: repeat(4, 530px);
         }
         .inside-bit { padding: 20px; }
         #spicata { background-color: #fdf6e3; color: #657b83; font-family: 'Playpen Sans', sans-serif; }
@@ -66,34 +67,19 @@
         #teddy { background-color: #1f222a; color: #fff; font-family: 'Fira Code', monospace; }
 
         @media screen and (max-width: 1600px) {
-            .grid-item { aspect-ratio: 1/0.55; }
-            .grid-container { grid-template-columns: repeat(2,1fr); }
+            .grid-item { aspect-ratio: unset; }
+            .grid-container { grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(9, 400px); }
         }
 
         @media screen and (max-width: 1300px) {
-            .grid-item { aspect-ratio: 1/0.3; }
-            .grid-container { grid-template-columns: repeat(1,1fr); }
+            .grid-item { aspect-ratio: unset; }
+            .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 400px); }
         }
 
         @media screen and (min-width: 2000px) {
-            .grid-item { aspect-ratio: 1/1.5; }
-            .grid-container { grid-template-columns: repeat(6,1fr); }
+            .grid-item { aspect-ratio: unset; }
+            .grid-container { grid-template-columns: repeat(6,1fr); grid-template-rows: repeat(3, 550px); }
         }
-
-        @media screen and (min-width: 2800px) {
-            .grid-item { aspect-ratio: 1/1; }
-            .grid-container { grid-template-columns: repeat(8,1fr); }
-        }
-
-        /*@media screen and (max-width: 1000px) {
-            .grid-item { aspect-ratio: 1/0.4; }
-            .grid-container { grid-template-columns: repeat(2,1fr); }
-        }
-
-        @media screen and (max-width: 700px) {
-            .grid-item { aspect-ratio: 1/0.2; }
-            .grid-container { grid-template-columns: repeat(1,1fr); }
-        }*/
     </style>
   </head>
   <body style="margin: 0px; height: 100%; background-color: #000;">
