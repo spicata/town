@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Fira+Code&family=Inter&family=Libre+Baskerville&family=Open+Sans&family=Playpen+Sans&family=Roboto+Slab&family=Schibsted+Grotesk&family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Playpen+Sans:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&family=Schibsted+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/town.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Town</title>
     <style>
         @font-face { font-family: Brightwall; src: url(https://shanmeis-notes.toomwn.xyz/assets/Brightwall.ttf); }
         @font-face { font-family: Brandon; src: url(https://shanmeis-notes.toomwn.xyz/assets/Brandon.ttf); }
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
         h1 { font-size: 28px; }
         .grid-item {
-            /*aspect-ratio: 1/1.6;*/
             overflow-wrap: anywhere;
             padding: 0px;
             font-size: 20px;
@@ -24,15 +24,14 @@
             text-decoration: none;
             overflow: hidden;
             font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            height: 530px;
         }
         .grid-item:hover{ filter: none; }
         .grid-container {
             display: grid;
             width: 100%;
             margin: auto;
-            /*gap: 10px;*/
             grid-template-columns: repeat(5,1fr);
-            grid-template-rows: repeat(4, 530px);
         }
         .inside-bit { padding: 20px; }
         #spicata { background-color: #fdf6e3; color: #657b83; font-family: 'Playpen Sans', sans-serif; }
@@ -58,21 +57,28 @@
         #chicken { background-color: #fff; color: #000; }
         #cookie { background-color: #9b5b3f; color: #4e4e4e; margin: 0px; padding: 0px; }
         #cringe { background-color: #1e1e21; color: #d4d4d4; }
-        #loren { background-color: #fff; color: #000; }
-        #beatrice { background-color: #fff; color: #000; }
-        #claudia { background-color: #fff; color: #000; }
+        #loren { background-color: #fff; color: rgb(55, 53, 47); font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 18px; }
+        #beatrice { 
+            background: rgb(218,226,237);
+            background: linear-gradient(180deg, rgba(218,226,237,1) 0%, rgba(223,229,238,1) 51%, rgba(218,226,237,1) 100%); color: #1d1e21;
+            font-family: "Montserrat";
+        }
+        #beatrice h1 {
+            font-size: 3rem;
+        }
+        #claudia { background-color: #fff; color: rgb(55, 53, 47); font-family: 'Lora', Georgia, ui-serif, serif; font-size: 18px; }
         #baju { background-color: #141021; color: #d4d4d4; font-family: 'Source Sans 3', sans-serif; }
-        #kat { background-color: #fff; color: #000; }
+        #kat { background-color: #191919; color: #d4d4d4; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" }
         #worldlink { background-color: #fff; color: #000; }
         #teddy { background-color: #1f222a; color: #fff; font-family: 'Fira Code', monospace; }
-        @media screen and (max-width: 1600px) { .grid-container { grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(9, 400px); } }
-        @media screen and (max-width: 1300px) { .grid-item { filter: none; } .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 400px); } }
-        @media screen and (max-width: 1000px) { .grid-item { filter: none; } .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 480px); } }
-        @media screen and (max-width: 500px) { .grid-item { filter: none; } .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 550px); } }
-        @media screen and (min-width: 2000px) { .grid-container { grid-template-columns: repeat(6,1fr); grid-template-rows: repeat(3, 550px); } }
+        @media screen and (max-width: 1600px) { .grid-item { height: 400px; } .grid-container { grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(9, 400px); } }
+        @media screen and (max-width: 1300px) { .grid-item { height: 400px; filter: none; } .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 400px); } }
+        @media screen and (max-width: 1000px) { .grid-item { height: 480px; filter: none; } .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 480px); } }
+        @media screen and (max-width: 500px) { .grid-item { height: 550px; filter: none; } .grid-container { grid-template-columns: repeat(1,1fr); grid-template-rows: repeat(18, 550px); } }
+        @media screen and (min-width: 2000px) { .grid-item { height: 550px; } .grid-container { grid-template-columns: repeat(6,1fr); grid-template-rows: repeat(3, 550px); } }
     </style>
   </head>
-  <body style="margin: 0px; height: 100%; background-color: #000;">
+  <body style="margin: 0px; height: 100%; background-color: #000; font-display: swap;">
     <div class="grid-container">
         <a class="grid-item" id="spicata" href="https://spicata.99000000.xyz">
             <div style="background-color: #657b83; width: 100%;"><p style="color: #fdf6e3; padding: 10px 20px; margin: 0px;">~ /</p></div>
@@ -87,12 +93,19 @@
             <div class="inside-bit">
                 <h1>notmario's notes</h1>
                 <hr style="border: 1px dashed #e59df1;">
-                <p>A website contains a bunch of notes</p>
+                <p>my website exists</p>
+                <p>i have. stuff. and non-note things.</p>
+                <p>also you're wrong now so ha (note from spicata: please write an actual description)</p>
+                <br>
+                <p>and also i have a bad version of cookie clicker in mine (hover over it)</p>
+                <p style="color: #28012f; z-index: 999; padding: 1rem; background-color: #e59df1;" onmouseover="this.innerHTML = this.innerHTML - 0 + 1" id="badclicker">0</p>
             </div>
         </a>
         <a class="grid-item" id="mace" href="https://macesnotes.netlify.app/">
-            <div class="inside-bit">
-                <h1 style="font-weight: 700;">mace's notes</h1>
+            <div style="border-top: 4px solid; border-image-source: linear-gradient(90deg, #5d2f86, #8ed6fb 50%, #d32e9d); border-image-slice: 1;"></div>
+            <div style="padding-left: 1.5em; border-bottom: 2px solid #1b1f22;"><p style="font-weight: 700;">title moment</p></div>
+            <div class="inside-bit" style="padding-top: 0px;">
+                <h1 style="font-weight: 700; font-size: 32px;">mace's notes</h1>
                 <p>A website contains a bunch of notes</p>
             </div>
         </a>
@@ -147,20 +160,27 @@
             </div>
         </a>
         <a class="grid-item" id="loren" href="https://ionized-satellite-e99.notion.site/Loren-s-2023-Notion-cd03827de0a743468d9fb5a70413fc95">
-            <div class="inside-bit">
-                <h1>loren</h1>
-                <p>Good day! Pour yourself a cup of tea and have a peruse. If tea isn't your thing then I'm sure we can get some juice for you. You might just have to get past the random babies and hidden clowns sorry.</p>
+            <img src="https://ionized-satellite-e99.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0f0397b9-b405-4a3c-b896-4eea8a2c4f06%2Fcottage-garden-ideas-paving-1618238091.jpeg?table=block&id=cd03827d-e0a7-4346-8d9f-b5a70413fc95&spaceId=be2d6e5e-1839-4178-bc96-59dcb7c498c0&width=2000&userId=&cache=v2" alt="loren's header photo" style="max-height: 20%; width: 100%; object-fit: cover; object-position: center 85.4%;">
+            <div class="inside-bit" style="padding: 24px; padding-top: 0px;">
+                <h1>Loren’s Garden Cafe</h1>
+                <p style="border-left: 4px solid rgb(217, 115, 13); padding-left: 10px; color: rgb(217, 115, 13);">Bouquets, Coffee and Ponds.</p>
+                <hr style="border: solid 1px rgba(55, 53, 47, 0.16);">
+                <p>Good day!</p>
+                <p>Pour yourself a cup of tea and have a peruse. If tea isn't your thing then I'm sure we can get some juice for you. You might just have to get past the random babies and hidden clowns sorry.</p>
             </div>
         </a>
         <a class="grid-item" id="beatrice" href="https://beatricesychong.wixsite.com/notes">
-            <div class="inside-bit">
-                <h1>beatrice</h1>
-                <p>or even this one?</p>
+            <div class="inside-bit" style="background-image: url(https://static.wixstatic.com/media/192106_ae935b10b8974510bb76ae86da7b8a07~mv2.jpg/v1/fill/w_1674,h_1083,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/192106_ae935b10b8974510bb76ae86da7b8a07~mv2.jpg); height: 100%; background-size: cover;">
+                <div style="position: relative; top: 55%;">
+                    <h1 style="margin-bottom: 5px;">Beatrice</h1>
+                    <p style="margin-top: 5px;">or even this one?</p>
+                </div>
             </div>
         </a>
         <a class="grid-item" id="claudia" href="https://cshc.notion.site/cshc/claudia-s-life-planner-c23280690bef46b79adee2d0773c5591">
-            <div class="inside-bit">
-                <h1>claudia</h1>
+            <img src="https://cshc.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F237865c3-7b6b-45c8-8f0f-d06d659ab43d%2FInstagram.jpg?table=block&id=c2328069-0bef-46b7-9ade-e2d0773c5591&spaceId=55fdd871-20c7-4d01-b7cf-8a299c983104&width=2000&userId=&cache=v2" alt="loren's header photo" style="max-height: 20%; width: 100%; object-fit: cover; object-position: center 85.4%;">
+            <div class="inside-bit" style="padding: 24px; padding-top: 0px;">
+                <h1>jeolansky’s life planner</h1>
                 <p>A website contains a bunch of notes</p>
             </div>
         </a>
@@ -175,7 +195,8 @@
             </div>
         </a>
         <a class="grid-item" id="kat" href="https://coreonett.notion.site/coreonett/Year-11-Notes-6978dbec99e943649a3a0773b2ee0587">
-            <div class="inside-bit">
+            <img src="https://coreonett.notion.site/images/page-cover/solid_red.png" alt="loren's header photo" style="max-height: 20%; width: 100%; object-fit: cover; object-position: center 85.4%;">
+            <div class="inside-bit" style="padding: 24px; padding-top: 0px;">
                 <h1>kat</h1>
                 <p>A website contains a bunch of notes</p>
             </div>
