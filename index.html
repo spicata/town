@@ -6,12 +6,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Fira+Code&family=Inter&family=Libre+Baskerville&family=Open+Sans&family=Playpen+Sans&family=Roboto+Slab&family=Schibsted+Grotesk&family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="icon" type="image/png" href="/town.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Town</title>
     <style>
         @font-face { font-family: Brightwall; src: url(https://shanmeis-notes.toomwn.xyz/assets/Brightwall.ttf); }
         @font-face { font-family: Brandon; src: url(https://shanmeis-notes.toomwn.xyz/assets/Brandon.ttf); }
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
         h1 { font-size: 28px; }
         .grid-item {
             /*aspect-ratio: 1/1.6;*/
@@ -24,6 +26,7 @@
             text-decoration: none;
             overflow: hidden;
             font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            height: 530px;
         }
         .grid-item:hover{ filter: none; }
         .grid-container {
@@ -32,7 +35,6 @@
             margin: auto;
             /*gap: 10px;*/
             grid-template-columns: repeat(5,1fr);
-            grid-template-rows: repeat(4, 530px);
         }
         .inside-bit { padding: 20px; }
         #spicata { background-color: #fdf6e3; color: #657b83; font-family: 'Playpen Sans', sans-serif; }
@@ -58,11 +60,28 @@
         #chicken { background-color: #fff; color: #000; }
         #cookie { background-color: #9b5b3f; color: #4e4e4e; margin: 0px; padding: 0px; }
         #cringe { background-color: #1e1e21; color: #d4d4d4; }
-        #loren { background-color: #fff; color: #000; }
-        #beatrice { background-color: #fff; color: #000; }
-        #claudia { background-color: #fff; color: #000; }
+        #loren { background-color: #191919; color: #d4d4d4; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" }
+        #loren h2 {
+            border-left: 4px solid #c77d48;
+            padding-left: 10px;
+            color: #c77d48;
+            font-size: 1rem;
+        }
+        #loren hr {
+            border: 1px solid #373737;
+            margin: 0px;   
+        }
+        #beatrice { 
+            background: rgb(218,226,237);
+            background: linear-gradient(180deg, rgba(218,226,237,1) 0%, rgba(223,229,238,1) 51%, rgba(218,226,237,1) 100%); color: #1d1e21;
+            font-family: "Montserrat";
+        }
+        #beatrice h1 {
+            font-size: 3rem;
+        }
+        #claudia { background-color: #191919; color: #d4d4d4; font-family: Lyon-Text, Georgia, ui-serif, serif }
         #baju { background-color: #141021; color: #d4d4d4; font-family: 'Source Sans 3', sans-serif; }
-        #kat { background-color: #fff; color: #000; }
+        #kat { background-color: #191919; color: #d4d4d4; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" }
         #worldlink { background-color: #fff; color: #000; }
         #teddy { background-color: #1f222a; color: #fff; font-family: 'Fira Code', monospace; }
         @media screen and (max-width: 1600px) { .grid-container { grid-template-columns: repeat(2,1fr); grid-template-rows: repeat(9, 400px); } }
@@ -87,7 +106,15 @@
             <div class="inside-bit">
                 <h1>notmario's notes</h1>
                 <hr style="border: 1px dashed #e59df1;">
-                <p>A website contains a bunch of notes</p>
+                <p>my website exists</p>
+                <p>i have. stuff. and non-note things.</p>
+                <br>
+                <br>
+                <br>
+                <p>also you're wrong now so ha</p>
+                <br>
+                <p>and also i have a bad version of cookie clicker in mine (hover over it)</p>
+                <p style="color: #28012f; z-index: 999; padding: 1rem; background-color: #e59df1;" onmouseover="this.innerHTML = this.innerHTML - 0 + 1" id="badclicker">0</p>
             </div>
         </a>
         <a class="grid-item" id="mace" href="https://macesnotes.netlify.app/">
@@ -148,19 +175,21 @@
         </a>
         <a class="grid-item" id="loren" href="https://ionized-satellite-e99.notion.site/Loren-s-2023-Notion-cd03827de0a743468d9fb5a70413fc95">
             <div class="inside-bit">
-                <h1>loren</h1>
+                <h1>Loren's Garden Cafe</h1>
+                <h2>Bouquets, Coffee and Ponds.</h2>
+                <hr>
                 <p>A website contains a bunch of notes</p>
             </div>
         </a>
         <a class="grid-item" id="beatrice" href="https://beatricesychong.wixsite.com/notes">
             <div class="inside-bit">
-                <h1>beatrice</h1>
+                <h1>Beatrice</h1>
                 <p>or even this one?</p>
             </div>
         </a>
         <a class="grid-item" id="claudia" href="https://cshc.notion.site/cshc/claudia-s-life-planner-c23280690bef46b79adee2d0773c5591">
             <div class="inside-bit">
-                <h1>claudia</h1>
+                <h1>jeolansky</h1>
                 <p>A website contains a bunch of notes</p>
             </div>
         </a>
