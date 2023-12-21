@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Playpen+Sans:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&family=Schibsted+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&family=Libre+Baskerville:wght@400;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Playpen+Sans:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&family=Schibsted+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/town.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Town</title>
@@ -27,12 +27,7 @@
             height: 530px;
         }
         .grid-item:hover{ filter: none; }
-        .grid-container {
-            display: grid;
-            width: 100%;
-            margin: auto;
-            grid-template-columns: repeat(5,1fr);
-        }
+        .grid-container { display: grid; width: 100%; margin: auto; grid-template-columns: repeat(5,1fr); }
         .inside-bit { padding: 20px; }
         #spicata { background-color: #fdf6e3; color: #657b83; font-family: 'Playpen Sans', sans-serif; }
         #notmario { background-color: #28012f; color: #ffffff; font-family: 'Comic Neue', cursive; }
@@ -40,32 +35,17 @@
         #reaper { background-color: #000000; color: #fbfffe; font-family: 'Roboto Slab', serif; }
         #shadows { background-color: #00283c; color: #fff; font-family: 'Open Sans', sans-serif; }
         .shadow-title { animation: rainbow 5s linear infinite; }
-        @keyframes rainbow {
-            0% { text-shadow: none; }
-            30% { text-shadow: none; }
-            40% {text-shadow: 10px 10px 10px violet;}
-            50% {text-shadow: 10px 10px 10px indigo;}
-            60% {text-shadow: 10px 10px 10px blue;}
-            70% {text-shadow: 10px 10px 10px green;}
-            80% {text-shadow: 10px 10px 10px orange;}
-            90% {text-shadow: 10px 10px 10px yellow;}
-            100% {text-shadow: 10px 10px 10px red;}
+        @keyframes rainbow { 0% { text-shadow: none; } 30% { text-shadow: none; } 40% {text-shadow: 10px 10px 10px violet;} 50% {text-shadow: 10px 10px 10px indigo;} 60% {text-shadow: 10px 10px 10px blue;} 70% {text-shadow: 10px 10px 10px green;} 80% {text-shadow: 10px 10px 10px orange;} 90% {text-shadow: 10px 10px 10px yellow;} 100% {text-shadow: 10px 10px 10px red;}
         }
-        #jacaranda { background-color: #282a36; color: #d4d4d4; font-size: 18px; }
-        #littleroot { background-color: #102c57; color: #f8f0e5; }
+        #jacaranda { background-color: #282a36; color: #d4d4d4; font-size: 18px; font-family: 'Source Sans 3', sans-serif; }
+        #littleroot { background-color: #102c57; color: #f8f0e5; font-family: 'Kalam', cursive; }
         #shanmei { background-color: #fff; color: #000; font-family: 'Brandon', sans-serif; }
-        #chicken { background-color: #fff; color: #000; }
-        #cookie { background-color: #9b5b3f; color: #4e4e4e; margin: 0px; padding: 0px; }
-        #cringe { background-color: #1e1e21; color: #d4d4d4; }
+        #chicken { background-color: #fff; color: #000; font-family: 'Open Sans', sans-serif  }
+        #cookie { background-color: #9b5b3f; color: #4e4e4e; margin: 0px; padding: 0px; font-family: 'Source Sans 3', sans-serif; }
+        #cringe { background-color: #1e1e21; color: #d4d4d4; font-family: 'Source Sans 3', sans-serif; }
         #loren { background-color: #fff; color: rgb(55, 53, 47); font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 18px; }
-        #beatrice { 
-            background: rgb(218,226,237);
-            background: linear-gradient(180deg, rgba(218,226,237,1) 0%, rgba(223,229,238,1) 51%, rgba(218,226,237,1) 100%); color: #1d1e21;
-            font-family: "Montserrat";
-        }
-        #beatrice h1 {
-            font-size: 3rem;
-        }
+        #beatrice { font-family: "Montserrat", sans-serif; }
+        #beatrice h1 { font-size: 3rem; }
         #claudia { background-color: #fff; color: rgb(55, 53, 47); font-family: 'Lora', Georgia, ui-serif, serif; font-size: 18px; }
         #baju { background-color: #141021; color: #d4d4d4; font-family: 'Source Sans 3', sans-serif; }
         #kat { background-color: #191919; color: #d4d4d4; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" }
@@ -103,7 +83,7 @@
         </a>
         <a class="grid-item" id="mace" href="https://macesnotes.netlify.app/">
             <div style="border-top: 4px solid; border-image-source: linear-gradient(90deg, #5d2f86, #8ed6fb 50%, #d32e9d); border-image-slice: 1;"></div>
-            <div style="padding-left: 1.5em; border-bottom: 2px solid #1b1f22;"><p style="font-weight: 700;">title moment</p></div>
+            <div style="padding-left: 1.5em; border-bottom: 1px solid #1b1f22;"><p style="font-weight: 700;">title moment</p></div>
             <div class="inside-bit" style="padding-top: 0px;">
                 <h1 style="font-weight: 700; font-size: 32px;">mace's notes</h1>
                 <p>A website contains a bunch of notes</p>
@@ -130,7 +110,7 @@
         </a>
         <a class="grid-item" id="littleroot" href="https://nottaro.github.io/littleroot/">
             <div class="inside-bit">
-                <h1 style="color: #96b6c5">🌱 littleroot</h1>
+                <h1 style="color: #96b6c5; font-family: 'Nunito', sans-serif;">🌱 littleroot</h1>
                 <p>A website contains a bunch of notes</p>
             </div>
         </a>
@@ -144,9 +124,9 @@
             <div style="background: linear-gradient(60deg, #ac1343 0%, #e0b049 100%); width: 100%; display: flex; justify-content: center; align-items: center; height: 30%;">
                 <h1 style="padding: 0px; font-family: Calibri, 'Trebuchet MS', sans-serif; color: #fff;">The Chicken Pen</h1>
             </div>
-            <div class="inside-bit" style="padding: 5%;">
+            <div class="inside-bit" style="padding: 1% 5%;">
                 <p>Hello There!</p>
-                <p>Splash through the muddy puddles and head past the golden hay bales to find yourself at the hen-trance to a website with the intention to help you get through your eggs-ams, while satisfying your chicken desires. We all love chickens don't we? Just be careful not to accidently slaughter some or we may need to egg-spell you</p>
+                <p>Splash through the muddy puddles and head past the golden hay bales to find yourself at the hen-trance to a website with the intention to help you get through your eggs-ams, while satisfying your chicken desires. We all love chickens don't we? Just be careful not to accidently slaughter some or we may need to egg-spell you.</p>
             </div>
         </a>
         <a class="grid-item" id="cookie" href="https://rubver16.github.io/joles-notes/">
